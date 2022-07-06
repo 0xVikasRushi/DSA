@@ -19,7 +19,7 @@ class SortArrayByParityL {
             }
         }
         return nums;
-
+//
         // O(n1 + n2) + O(nlogn)
         // Time complexity is O(n)
 //        int[] ans = new int[nums.length];
