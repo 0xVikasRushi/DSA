@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 // https://leetcode.com/problems/merge-sorted-array/
 class Merge_sorted_Array {
-    // run in O()
+    // run in O(n)
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i=0;
         int j=0;
