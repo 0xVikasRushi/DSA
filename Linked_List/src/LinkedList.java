@@ -10,21 +10,27 @@ public class LinkedList {
 //        System.out.println(findNode(head,90));
 //        System.out.println(findReversiveNode(head,20));
 //        head  =  insert(head,0 ,209);
-          head = delete(head,3);
+//          head = delete(head,3);
+//        System.out.println(isPalindrome(head));
+//        head = InsertRecursive(head,30,1);
+//        head = deleteNodeRec(head,3);
         System.out.println();
         Print(head);
 
     }
+    //9 2 3 3 2 9
     public static Node<Integer> CreateLL(){
         Node<Integer> n1 = new Node<Integer>(10);
         Node<Integer> n2 = new Node<Integer>(20);
         Node<Integer> n3 = new Node<Integer>(30);
         Node<Integer> n4 = new Node<Integer>(40);
         Node<Integer> n5 = new Node<Integer>(50);
+        Node<Integer> n6 = new Node<Integer>(60);
         n1.next=n2;
         n2.next=n3;
         n3.next=n4;
         n4.next=n5;
+        n5.next=n6;
         return n1;
     }
 
@@ -115,6 +121,22 @@ public class LinkedList {
 
 
     }
+
+
+
+
+//    public static boolean isPalindrome(Node<Integer> head) {
+//        Node<Integer> temp = head;
+//        while(temp!=null){
+//            temp = temp.next;
+//        }
+//
+//        if(head.data!=temp.data) {
+//            return false;
+//        }
+//        else return isPalindrome(head.next);
+//
+//    }
 
 
 
