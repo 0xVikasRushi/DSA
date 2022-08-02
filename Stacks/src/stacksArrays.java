@@ -22,10 +22,10 @@ public class stacksArrays {
 
     private void doubleCapicity() {
         System.out.println("Printing Double Capacity");
-        int [] temp = data;
+        int [] temparray = data;
         data = new int[2*data.length];
-        for (int i = 0; i < temp.length; i++) {
-            data[i]=temp[i];
+        for (int i = 0; i < temparray.length; i++) {
+            data[i]= temparray[i];
         }
     }
 
