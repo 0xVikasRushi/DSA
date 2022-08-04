@@ -28,6 +28,7 @@ public class palindrome_LL {
         }
 
     }
+
 //    public static boolean isPalindrome(Node<Integer> head) {
 //        if(head==null){
 //            return true;
