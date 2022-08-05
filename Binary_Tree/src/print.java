@@ -22,4 +22,5 @@ public class print {
         PrintLinear(root.left);
         PrintLinear(root.right);
     }
+
 }
