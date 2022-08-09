@@ -1,4 +1,21 @@
 public class Count_sum_height_of_Binary_tree {
+
+
+
+    public int countNodesBest(BinaryTreeNode<Integer> root) {
+
+        if(root==null){
+            return 0;
+        }
+        int l = height(root.left);
+        int r = height(root.right);
+        if (l == r) {
+            return countNodesBest(root.right) + (1<<l);
+        }
+        return countNodesBest(root.left) + (1<<r);
+
+    }
+
     public static int countNodes(BinaryTreeNode root) {
         if(root==null){
             return 0;
