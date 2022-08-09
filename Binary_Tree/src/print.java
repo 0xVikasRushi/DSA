@@ -1,3 +1,8 @@
+
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class print {
     public static void Print(BinaryTreeNode<Integer> root){
         if(root==null){
@@ -5,12 +10,14 @@ public class print {
         }
         System.out.print(root.data + ":");
         if(root.left!=null){
-            System.out.print("L" + root.left.data + ",");
+            System.out.print("L" + root.left.data + ",");Print(root.left);
         }
         if(root.right!=null){
-            System.out.print("R" + root.right.data+ ",");
+            System.out.print("R" + root.right.data+ ",");Print(root.right);
         }
-         Print(root.right);
+        System.out.println();
+
+
     }
     public static void PrintLinear(BinaryTreeNode<Integer> root){
         if(root==null){
@@ -52,5 +59,35 @@ public class print {
         helper(root.left,k+1);
         helper(root.right,k+1);
     }
-}
+    public static void PrintLevelWise(BinaryTreeNode<Integer> root){
+        if(root==null){
+            return;
+        }
+
+        Queue<BinaryTreeNode<Integer>> queue = new LinkedList<BinaryTreeNode<Integer>>();
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            BinaryTreeNode<Integer> front = queue.poll();
+            System.out.print(front.data + ":");
+            if (front.left != null) {
+                System.out.print("L:" + front.left.data + ",");
+                queue.add(front.left);
+            }
+            if (front.left == null) {
+                System.out.print("L:" + -1 + ',');
+            }
+            if (front.right != null) {
+                System.out.print("R:" + front.right.data);
+                queue.add(front.right);
+            }
+            if(front.right==null){
+                System.out.print("R:" + -1);
+            }
+            System.out.println();
+        }
+
+    }
+    }
+
+
 
