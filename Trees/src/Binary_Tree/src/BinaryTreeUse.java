@@ -32,8 +32,12 @@ public class BinaryTreeUse {
 //        System.out.println(Count_sum_height_of_Binary_tree.maxDepth(root));
 //        BinaryTreeNode<Integer> root1 = inputLevelWise();
 //        print.Print(root1);
-        print.PrintLevelWise(root);
-}
+//        printLevelWise.printLevelWise(root);
+//            print.PrintLevelWise(root);
+//        System.out.println(getMinAndMax.getMinAndMax(root));
+//        System.out.println(getMinAndMax.getMinAndMax(root));
+//        getMinAndMax.getMinAndMax(root);
+    }
 
 
     public static BinaryTreeNode<Integer> BinaryTreeinput(boolean isRoot,int data,boolean isLeft){

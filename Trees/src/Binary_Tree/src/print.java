@@ -63,7 +63,6 @@ public class print {
         if(root==null){
             return;
         }
-
         Queue<BinaryTreeNode<Integer>> queue = new LinkedList<BinaryTreeNode<Integer>>();
         queue.add(root);
         while(!queue.isEmpty()) {
