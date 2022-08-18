@@ -12,7 +12,5 @@ public class BST_search {
             return searchInBST(root.right,k);
         }
         else  return searchInBST(root.left,k);
-
-
     }
 }
