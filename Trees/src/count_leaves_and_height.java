@@ -11,24 +11,6 @@ public class count_leaves_and_height {
         return cnt;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     //    public static int getHeight(TreeNode<Integer> root){
 //        if(root==null) return 0;
 //        int height = 0;

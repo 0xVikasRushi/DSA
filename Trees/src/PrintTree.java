@@ -1,6 +1,37 @@
-import java.util.function.BinaryOperator;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
 
 public class PrintTree {
+    public static void PrintLevelWise(TreeNode<Integer> root){
+        if(root==null) return;
+        Queue<TreeNode<Integer>> queue = new LinkedList<>();
+        queue.add(root);
+        System.out.println(root.data);
+        while(!queue.isEmpty()){
+            int n =  queue.size();
+            while(n>0){
+                TreeNode<Integer> front = queue.remove();
+
+                for (int i = 0; i < front.children.size() ; i++) {
+                    TreeNode<Integer> node = front.children.get(i);
+                    queue.add(node);
+                    System.out.print(node.data+" ");
+                }
+                n--;
+                System.out.println();
+            }
+
+
+        }
+
+    }
+
+
+
+
+
 
         public static void Print(TreeNode<Integer> root){
             if(root==null) return;

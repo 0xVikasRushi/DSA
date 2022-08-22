@@ -7,7 +7,7 @@ public class TreeNodeUse {
         TreeNode<Integer> node4 = new TreeNode<>(40);
         TreeNode<Integer> node5 = new TreeNode<>(50);
         root.children.add(node1);
-        root.children.add(node2);
+         root.children.add(node2);
         root.children.add(node3);
         node1.children.add(node4);
         node1.children.add(node5);
