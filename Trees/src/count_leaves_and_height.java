@@ -11,19 +11,17 @@ public class count_leaves_and_height {
         return cnt;
     }
 
-    //    public static int getHeight(TreeNode<Integer> root){
-//        if(root==null) return 0;
-//        int height = 0;
-//        if(root!=null){
-//            height++;
-//        }
-//        int n = root.children.size();
-//        int[] ans = new int[n];
-//        for (int i = 0; i < root.children.size(); i++) {
-//            height += getHeight(root.children.get(i));
-//        }
-//
-//
-//    }
+        public static int getHeight(TreeNode<Integer> root){
+        if(root==null) return 0;
+        int max = 0;
+            for (int i = 0; i < root.children.size(); i++) {
+                int val = getHeight(root.children.get(i));
+                if(val>max){
+                    max  = val;
+                }
+            }
+            return max+1;
+
+    }
 
 }
