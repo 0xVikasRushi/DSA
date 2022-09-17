@@ -1,10 +1,9 @@
 # DSA
-Data Structures and Algorithms in java i have used Resources used </br>
--- DSA kunal java bootcamp </br>
--- Codingninjas dsa for java</br>
--- Striver(takeUforward) youtube channel </br>
--- Algorithms Made Easy youtube channel</br>
--- Questions for leetcode and codestudio</br>
-
+Data Structures and Algorithms in java i have used Resources used
+- DSA kunal java bootcamp
+- Codingninjas dsa for java
+- Striver(takeUforward) youtube channel
+- Algorithms Made Easy youtube channel
+- Questions for leetcode and codestudio
 
 
