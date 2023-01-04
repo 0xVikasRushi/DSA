@@ -6,7 +6,7 @@ public class sortbyfreq {
             System.out.println(frequencySort(str));
          }
 
-
+       //https://leetcode.com/problems/sort-characters-by-frequency/submissions/871207861/
          public  static String frequencySort(String s) {
              HashMap<Character , Integer> map = new HashMap<>();
              for(int i = 0;i<s.length();i++){
