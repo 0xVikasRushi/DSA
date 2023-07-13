@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/BST/BST.iml" filepath="$PROJECT_DIR$/BST/BST.iml" />
       <module fileurl="file://$PROJECT_DIR$/Binary_Tree/Binary_Tree.iml" filepath="$PROJECT_DIR$/Binary_Tree/Binary_Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DP/DP.iml" filepath="$PROJECT_DIR$/DP/DP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA.iml" filepath="$PROJECT_DIR$/.idea/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/HashMap/HashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linked_List/Linked_List.iml" filepath="$PROJECT_DIR$/Linked_List/Linked_List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PriorityQueue/PriorityQueue.iml" filepath="$PROJECT_DIR$/PriorityQueue/PriorityQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Queues/Queues.iml" filepath="$PROJECT_DIR$/Queues/Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Stacks/Stacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Time_Complexity/Time_Complexity.iml" filepath="$PROJECT_DIR$/Time_Complexity/Time_Complexity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphs/graphs.iml" filepath="$PROJECT_DIR$/graphs/graphs.iml" />
     </modules>
   </component>
 </project>
