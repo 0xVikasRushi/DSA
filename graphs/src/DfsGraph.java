@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.Collection;
 class VertexDfs<T> {
     T data;
     boolean isVisited;
